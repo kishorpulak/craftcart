@@ -1,0 +1,174 @@
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;
+}
+.FooterCover {
+	width: 100%;
+	float: left;
+	background-color: #F4F4F4;
+	text-align: left;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.footerTileCover {
+	width: 100%;
+	float: left;
+	padding: 30px 20px;
+	border-right: 1px solid #ddd;
+	height: 100%;
+}
+.footerCol:last-child .footerTileCover {
+	border-right: none;
+}
+.company-height {
+	position: relative;
+}
+.company-logo-title {
+	font-size: 24px;
+	line-height: 24px;
+	color: #1c4988;
+}
+.emailPara {
+	font-size: 13px;
+	line-height: 18px;
+	color: #6b6b6b;
+	margin-top: 15px;
+	font-weight: 700;
+}
+.emailPara a {
+	color: #999999;
+	font-weight: normal;
+	letter-spacing: 1.2px;
+}
+.pwayImg {
+	width: 250px;
+	position: absolute;
+	bottom: 13px;
+}
+.pwayImg p {
+	width: 100%;
+	float: left;
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #567b77;
+	font-weight: 500;
+	margin-top: 5px;
+}
+.footerTitle {
+	font-size: 21px;
+	line-height: 24px;
+	color: #6b6b6b;
+}
+.aboutText {
+	width: 100%;
+	float: left;
+	color: #000000;
+	font-size: 13px;
+	margin-top: 15px;
+}
+.quickLinksUlCover {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.quickLinksUlCover ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.quickLinksUlCover ul li {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+}
+.quickLinksUlCover ul li a {
+	text-decoration: none;
+	display: block;
+	font-size: 13px;
+	color: #6b6b6b;
+	text-transform: capitalize;
+	transition: all 0.3s ease-in-out;
+}
+.quickLinksUlCover ul li a:hover, .quickLinksUlCover ul li a:focus {
+	color: #567b77;
+}
+.newsletterFormBox {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.newsletterFormBox .form-group {
+	margin-bottom: 0;
+}
+.newsletterFormBox input {
+	border-radius: 0;
+	border: none;
+	font-size: 14px;
+	color: #6b6b6b !important;
+	text-align: center;
+	outline: none;
+}
+.newsletterFormBox input.form-control:-webkit-autofill,
+.newsletterFormBox input.form-control:hover,
+.newsletterFormBox input.form-control:focus {
+	border: none;
+	border-color: transparent;
+	box-shadow: none;
+	background-color: transparent;
+	transition: background-color 5000s ease-in-out 0s;
+}
+.newsletterFormBox button {
+	margin-top: 20px;
+	background-color: #567b77;
+	border-color: #567b77;
+	color: #FFFFFF;
+	border-radius: 0;
+	font-size: 16px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+.newsletterFormBox button:hover, .newsletterFormBox button:focus {
+	background-color: #1c4988;
+}
+.socialsLinks {
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+.socialsLinks ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+.socialsLinks ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.socialsLinks ul li:first-child {
+	margin-left: 0;
+}
+.socialsLinks ul li:last-child {
+	margin-right: 0;
+}
+.socialsLinks ul li a {
+	color: #6b6b6b;
+	font-size: 18px;
+	transition: all 0.3s ease-in-out;
+}
+.socialsLinks ul li a:hover, .socialsLinks ul li a:focus {
+	color: #1c4988;
+}
+.copyRightCover {
+	width: 100%;
+	float: left;
+	background-color: #FFFFFF;
+	padding: 15px 0;
+}
+.copyrightText {
+	width: 100%;
+	float: left;
+	font-size: 13px;
+	color: #696969;
+}

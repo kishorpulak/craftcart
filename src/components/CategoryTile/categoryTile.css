@@ -1,0 +1,41 @@
+.categroyTileMainCover{
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.categroyTileCover{
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+}
+.catImg{
+	overflow: hidden;
+}
+.catImg img{
+	transition: all 0.2s ease-in-out;
+}
+.categroyTileCover:hover .catImg img, .categroyTileCover:focus .catImg img{
+	animation: flipInY;
+	animation-duration: 0.8s; 
+}
+.categoryTileTitle{
+	width: 100%;
+	float: left;
+	background-color: #999999;
+	overflow: hidden;
+}
+.categoryTileTitle a{	
+	font-size: 16px;
+	color: #f1f1f1;
+	font-weight: 500;
+	line-height: 20px;
+	display: block;
+	padding: 13px 3px;
+	text-decoration: none;
+	transition: all 0.1s ease-in-out;
+}
+.categroyTileCover:hover .categoryTileTitle a, .categroyTileCover:focus .categoryTileTitle a{
+	animation: slideInDown;
+	animation-duration: 0.8s; 
+}
